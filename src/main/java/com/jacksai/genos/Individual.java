@@ -1,4 +1,4 @@
-package com.jacksai;
+package com.jacksai.genos;
 
 public class Individual {
 
@@ -36,7 +36,7 @@ public class Individual {
         }
         return fitness;
     }
-    
+
     @Override
     public String toString() {
         String geneString = "";

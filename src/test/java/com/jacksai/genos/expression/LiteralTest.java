@@ -1,4 +1,4 @@
-package com.jacksai.expression;
+package com.jacksai.genos.expression;
 
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ public class LiteralTest {
     }
 
     @Test
-    public void souldInitializeWithZeroValue() {
+    public void shouldInitializeWithZeroValue() {
         // arrange
         Expression literal = new Literal();
 

@@ -1,4 +1,4 @@
-package com.jacksai.expression;
+package com.jacksai.genos.expression;
 
 public abstract class Expression {
 

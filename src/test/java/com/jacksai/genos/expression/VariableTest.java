@@ -1,4 +1,4 @@
-package com.jacksai.expression;
+package com.jacksai.genos.expression;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,8 +37,7 @@ public class VariableTest {
     @Test
     public void shouldThrowVariableNotFoundExceptionWhenNoVariableSet() {
         // arrange
-        Variable variableExpression = new Variable("A");
-        variableExpression.setExpressionContext(expressionContext);
+        Variable variableExpression = new Variable("A", expressionContext);
 
         try {
             //act

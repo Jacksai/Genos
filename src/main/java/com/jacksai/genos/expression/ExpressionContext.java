@@ -1,4 +1,4 @@
-package com.jacksai.expression;
+package com.jacksai.genos.expression;
 
 import java.util.HashMap;
 import java.util.Map;

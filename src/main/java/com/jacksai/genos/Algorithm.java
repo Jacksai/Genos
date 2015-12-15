@@ -1,4 +1,4 @@
-package com.jacksai;
+package com.jacksai.genos;
 
 public class Algorithm {
 

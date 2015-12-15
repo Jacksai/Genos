@@ -1,10 +1,15 @@
-package com.jacksai.expression;
+package com.jacksai.genos.expression;
 
 public class Variable extends Expression {
 
     private final String name;
 
     public Variable(String name) {
+        this.name = name;
+    }
+
+    public Variable(String name, ExpressionContext context) {
+        super(context);
         this.name = name;
     }
 
